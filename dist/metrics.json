@@ -1,0 +1,460 @@
+{
+  "start": "2020-01-01",
+  "end": "2022-11-29",
+  "initial_capital": 1000000.0,
+  "final_equity": 1119988.999011095,
+  "total_return": 0.11998899901109494,
+  "cagr": 0.03970467079631024,
+  "annual_volatility": 0.020271013340425515,
+  "max_drawdown": -0.02072616304175101,
+  "max_drawdown_duration_days": 353,
+  "max_drawdown_duration_sessions": 253,
+  "sharpe": 1.8662834950191778,
+  "sortino": 3.1908666092467306,
+  "calmar": 1.9156787832040456,
+  "trading_days": 760,
+  "years": 2.9103353867214237,
+  "exposure": 0.074714175167672,
+  "max_exposure": 0.4930753724232225,
+  "time_in_market": 0.38421052631578945,
+  "avg_open_positions": 0.6921052631578948,
+  "max_open_positions": 4,
+  "benchmark_total_return": 0.3137798852273972,
+  "benchmark_cagr": 0.09830946176202549,
+  "benchmark_max_drawdown": -0.10261168995981462,
+  "trades": 27,
+  "win_rate": 0.5555555555555556,
+  "winners": 15,
+  "losers": 12,
+  "breakeven": 0,
+  "avg_winner": 9749.953448135326,
+  "avg_loser": -2188.358559244582,
+  "avg_winner_pct": 0.07902927414444712,
+  "avg_loser_pct": -0.022762124753097312,
+  "payoff_ratio": 4.45537291270083,
+  "profit_factor": 5.569216140876038,
+  "expectancy": 4444.037000410923,
+  "expectancy_r": 0.8510420295560487,
+  "avg_holding_sessions": 19.51851851851852,
+  "median_holding_sessions": 18.0,
+  "gross_profit": 146249.3017220299,
+  "gross_loss": -26260.302710934986,
+  "best_trade": 32608.36381686982,
+  "worst_trade": -4456.24193374005,
+  "total_costs": 9341.749898054844,
+  "explicit_charges": 5781.255423805114,
+  "impact_costs": 3560.4944742497296,
+  "total_costs_pct_initial": 0.009341749898054844,
+  "avg_r_multiple": 0.8510420295560487,
+  "max_consecutive_wins": 3,
+  "max_consecutive_losses": 5,
+  "avg_holding_calendar_days": 27.48148148148148,
+  "sector_results": [
+    {
+      "sector": "Technology",
+      "trades": 14,
+      "win_rate": 0.5,
+      "total_pnl": 75700.24097765761,
+      "avg_pnl": 5407.1600698326865,
+      "avg_return_pct": 0.04029559650695459,
+      "profit_factor": 7.945615117511367,
+      "expectancy_r": 1.0392092952099004,
+      "avg_holding_sessions": 20.857142857142858,
+      "total_costs": 5230.289233765257
+    },
+    {
+      "sector": "Energy",
+      "trades": 4,
+      "win_rate": 1.0,
+      "total_pnl": 38437.47915267759,
+      "avg_pnl": 9609.369788169397,
+      "avg_return_pct": 0.0665880048124337,
+      "profit_factor": null,
+      "expectancy_r": 1.7778179366865317,
+      "avg_holding_sessions": 20.5,
+      "total_costs": 1534.6187107479689
+    },
+    {
+      "sector": "Healthcare",
+      "trades": 1,
+      "win_rate": 1.0,
+      "total_pnl": 4308.722902301694,
+      "avg_pnl": 4308.722902301694,
+      "avg_return_pct": 0.05785443856901097,
+      "profit_factor": null,
+      "expectancy_r": 0.7910021374563951,
+      "avg_holding_sessions": 28.0,
+      "total_costs": 241.88891787816598
+    },
+    {
+      "sector": "Financials",
+      "trades": 8,
+      "win_rate": 0.375,
+      "total_pnl": 1542.5559784580382,
+      "avg_pnl": 192.81949730725478,
+      "avg_return_pct": 0.002993600776678618,
+      "profit_factor": 1.1004182877276507,
+      "expectancy_r": 0.06586634760902313,
+      "avg_holding_sessions": 15.625,
+      "total_costs": 2334.9530356634514
+    }
+  ],
+  "symbol_results": [
+    {
+      "symbol": "TEC03",
+      "trades": 8,
+      "win_rate": 0.5,
+      "total_pnl": 42191.02768372758,
+      "avg_pnl": 5273.878460465948,
+      "avg_return_pct": 0.039722024642972246,
+      "profit_factor": 6.811280991717992,
+      "expectancy_r": 1.010922253652683,
+      "avg_holding_sessions": 22.0,
+      "total_costs": 2849.6069364292807
+    },
+    {
+      "symbol": "ENE03",
+      "trades": 1,
+      "win_rate": 1.0,
+      "total_pnl": 32608.36381686982,
+      "avg_pnl": 32608.36381686982,
+      "avg_return_pct": 0.2061906820034365,
+      "profit_factor": null,
+      "expectancy_r": 6.034067399203369,
+      "avg_holding_sessions": 30.0,
+      "total_costs": 560.3996482836842
+    },
+    {
+      "symbol": "TEC05",
+      "trades": 2,
+      "win_rate": 0.5,
+      "total_pnl": 27461.432844186787,
+      "avg_pnl": 13730.716422093394,
+      "avg_return_pct": 0.10306964954400742,
+      "profit_factor": 28.88787108666256,
+      "expectancy_r": 2.660174351348205,
+      "avg_holding_sessions": 23.0,
+      "total_costs": 817.6396324601301
+    },
+    {
+      "symbol": "FIN02",
+      "trades": 2,
+      "win_rate": 0.5,
+      "total_pnl": 9632.018406935345,
+      "avg_pnl": 4816.009203467673,
+      "avg_return_pct": 0.05377008034130422,
+      "profit_factor": 42.68198246849308,
+      "expectancy_r": 0.9664546079333709,
+      "avg_holding_sessions": 23.0,
+      "total_costs": 643.4103598787797
+    },
+    {
+      "symbol": "TEC06",
+      "trades": 2,
+      "win_rate": 0.5,
+      "total_pnl": 4752.925956253541,
+      "avg_pnl": 2376.4629781267704,
+      "avg_return_pct": 0.010725423118986856,
+      "profit_factor": 3.061030799082897,
+      "expectancy_r": 0.4411879059681525,
+      "avg_holding_sessions": 17.5,
+      "total_costs": 814.9232377582905
+    },
+    {
+      "symbol": "HEA03",
+      "trades": 1,
+      "win_rate": 1.0,
+      "total_pnl": 4308.722902301694,
+      "avg_pnl": 4308.722902301694,
+      "avg_return_pct": 0.05785443856901097,
+      "profit_factor": null,
+      "expectancy_r": 0.7910021374563951,
+      "avg_holding_sessions": 28.0,
+      "total_costs": 241.88891787816598
+    },
+    {
+      "symbol": "ENE02",
+      "trades": 1,
+      "win_rate": 1.0,
+      "total_pnl": 2791.908814442141,
+      "avg_pnl": 2791.908814442141,
+      "avg_return_pct": 0.03314504942822597,
+      "profit_factor": null,
+      "expectancy_r": 0.4993371548598017,
+      "avg_holding_sessions": 13.0,
+      "total_costs": 269.4333326719777
+    },
+    {
+      "symbol": "ENE01",
+      "trades": 1,
+      "win_rate": 1.0,
+      "total_pnl": 1837.561771552442,
+      "avg_pnl": 1837.561771552442,
+      "avg_return_pct": 0.014176837168949732,
+      "profit_factor": null,
+      "expectancy_r": 0.339300001530071,
+      "avg_holding_sessions": 21.0,
+      "total_costs": 409.70197458929306
+    },
+    {
+      "symbol": "TEC01",
+      "trades": 1,
+      "win_rate": 1.0,
+      "total_pnl": 1642.8573268903017,
+      "avg_pnl": 1642.8573268903017,
+      "avg_return_pct": 0.020952681123381042,
+      "profit_factor": null,
+      "expectancy_r": 0.3232690559516868,
+      "avg_holding_sessions": 25.0,
+      "total_costs": 248.8955903487784
+    },
+    {
+      "symbol": "ENE06",
+      "trades": 1,
+      "win_rate": 1.0,
+      "total_pnl": 1199.6447498131856,
+      "avg_pnl": 1199.6447498131856,
+      "avg_return_pct": 0.012839450649122598,
+      "profit_factor": null,
+      "expectancy_r": 0.23856719115288447,
+      "avg_holding_sessions": 18.0,
+      "total_costs": 295.083755203014
+    },
+    {
+      "symbol": "TEC04",
+      "trades": 1,
+      "win_rate": 0.0,
+      "total_pnl": -348.00283340061566,
+      "avg_pnl": -348.00283340061566,
+      "avg_return_pct": -0.0021806724957831925,
+      "profit_factor": 0.0,
+      "expectancy_r": -0.06444146686725917,
+      "avg_holding_sessions": 10.0,
+      "total_costs": 499.22383676877865
+    },
+    {
+      "symbol": "FIN03",
+      "trades": 3,
+      "win_rate": 0.3333333333333333,
+      "total_pnl": -2171.0041557179843,
+      "avg_pnl": -723.6680519059947,
+      "avg_return_pct": -0.0036393121824551005,
+      "profit_factor": 0.7374439474793223,
+      "expectancy_r": -0.10841893819951254,
+      "avg_holding_sessions": 14.666666666666666,
+      "total_costs": 891.2829919494218
+    },
+    {
+      "symbol": "FIN06",
+      "trades": 1,
+      "win_rate": 0.0,
+      "total_pnl": -2422.275764942852,
+      "avg_pnl": -2422.275764942852,
+      "avg_return_pct": -0.0344470303468257,
+      "profit_factor": 0.0,
+      "expectancy_r": -0.4339136683472872,
+      "avg_holding_sessions": 10.0,
+      "total_costs": 215.4537575753339
+    },
+    {
+      "symbol": "FIN01",
+      "trades": 2,
+      "win_rate": 0.5,
+      "total_pnl": -3496.182507816472,
+      "avg_pnl": -1748.091253908236,
+      "avg_return_pct": -0.019113193787494244,
+      "profit_factor": 0.2124330962572857,
+      "expectancy_r": -0.3234039760243662,
+      "avg_holding_sessions": 12.5,
+      "total_costs": 584.8059262599163
+    }
+  ],
+  "regime_results": [
+    {
+      "entry_regime": "bull",
+      "trades": 27,
+      "win_rate": 0.5555555555555556,
+      "total_pnl": 119988.99901109491,
+      "avg_pnl": 4444.037000410923,
+      "avg_return_pct": 0.03378865241220515,
+      "profit_factor": 5.569216140876038,
+      "expectancy_r": 0.8510420295560487,
+      "avg_holding_sessions": 19.51851851851852,
+      "total_costs": 9341.749898054844
+    }
+  ],
+  "total_turnover": 5.698714589833909,
+  "annual_turnover": 1.9580954881814068,
+  "regime_daily_results": [
+    {
+      "regime": "bear",
+      "days": 358,
+      "avg_daily_return": -2.739280477646466e-05,
+      "cumulative_return": -0.009812709408988374,
+      "annualized_volatility": 0.008744128957669663
+    },
+    {
+      "regime": "bull",
+      "days": 401,
+      "avg_daily_return": 0.0003086069114193362,
+      "cumulative_return": 0.13108803723647777,
+      "annualized_volatility": 0.026400551152663612
+    }
+  ],
+  "monthly_returns": [
+    {
+      "month": "2020-01",
+      "return": 0.0
+    },
+    {
+      "month": "2020-02",
+      "return": 0.0
+    },
+    {
+      "month": "2020-03",
+      "return": 0.0
+    },
+    {
+      "month": "2020-04",
+      "return": 0.0
+    },
+    {
+      "month": "2020-05",
+      "return": 0.0
+    },
+    {
+      "month": "2020-06",
+      "return": 0.0
+    },
+    {
+      "month": "2020-07",
+      "return": 0.0
+    },
+    {
+      "month": "2020-08",
+      "return": 0.0
+    },
+    {
+      "month": "2020-09",
+      "return": 0.0
+    },
+    {
+      "month": "2020-10",
+      "return": 0.0
+    },
+    {
+      "month": "2020-11",
+      "return": 0.0
+    },
+    {
+      "month": "2020-12",
+      "return": 0.0
+    },
+    {
+      "month": "2021-01",
+      "return": 0.0
+    },
+    {
+      "month": "2021-02",
+      "return": 0.005702061632899769
+    },
+    {
+      "month": "2021-03",
+      "return": 0.0069932388489595265
+    },
+    {
+      "month": "2021-04",
+      "return": 0.012100415575540646
+    },
+    {
+      "month": "2021-05",
+      "return": -0.005551238291856664
+    },
+    {
+      "month": "2021-06",
+      "return": 0.011548607805147215
+    },
+    {
+      "month": "2021-07",
+      "return": 0.021526112401142994
+    },
+    {
+      "month": "2021-08",
+      "return": 0.012353956685413836
+    },
+    {
+      "month": "2021-09",
+      "return": 0.027580819863348705
+    },
+    {
+      "month": "2021-10",
+      "return": -0.009112661580173098
+    },
+    {
+      "month": "2021-11",
+      "return": -0.008595465661821788
+    },
+    {
+      "month": "2021-12",
+      "return": -0.0012277972361495193
+    },
+    {
+      "month": "2022-01",
+      "return": 0.0
+    },
+    {
+      "month": "2022-02",
+      "return": 0.0
+    },
+    {
+      "month": "2022-03",
+      "return": 0.0
+    },
+    {
+      "month": "2022-04",
+      "return": 0.0
+    },
+    {
+      "month": "2022-05",
+      "return": 0.0
+    },
+    {
+      "month": "2022-06",
+      "return": 0.001391125691052597
+    },
+    {
+      "month": "2022-07",
+      "return": 0.006297344233833213
+    },
+    {
+      "month": "2022-08",
+      "return": -0.002269758582508996
+    },
+    {
+      "month": "2022-09",
+      "return": 0.02482787721955937
+    },
+    {
+      "month": "2022-10",
+      "return": 0.010760195749082602
+    },
+    {
+      "month": "2022-11",
+      "return": 0.00033014170774192664
+    }
+  ],
+  "annual_returns": [
+    {
+      "year": "2020",
+      "return": 0.0
+    },
+    {
+      "year": "2021",
+      "return": 0.07504870303587818
+    },
+    {
+      "year": "2022",
+      "return": 0.04180303259592599
+    }
+  ]
+}
