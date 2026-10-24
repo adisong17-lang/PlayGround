@@ -1,0 +1,8 @@
+{
+  "source": "synthetic:gap_down_stop",
+  "scenario": "gap_down_stop",
+  "benchmark_symbol": "NIFTY50",
+  "seed": 7,
+  "sessions": 760,
+  "description": "Deterministic synthetic data for research/testing only"
+}

@@ -1,0 +1,23 @@
+{
+  "source": "csv:data/synthetic/clean_uptrend",
+  "symbols": 36,
+  "benchmark_sessions": 760,
+  "summary": {
+    "start": "2020-01-01",
+    "end": "2022-11-29",
+    "initial_capital": 1000000.0,
+    "final_equity": 1119988.999011095,
+    "total_return": 0.11998899901109494,
+    "cagr": 0.03970467079631024,
+    "max_drawdown": -0.02072616304175101,
+    "sharpe": 1.8662834950191778,
+    "sortino": 3.1908666092467306,
+    "calmar": 1.9156787832040456,
+    "trades": 27,
+    "win_rate": 0.5555555555555556,
+    "profit_factor": 5.569216140876038,
+    "expectancy_r": 0.8510420295560487,
+    "total_costs": 9341.749898054844,
+    "exposure": 0.074714175167672
+  }
+}

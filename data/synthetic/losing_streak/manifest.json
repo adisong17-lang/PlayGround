@@ -1,0 +1,8 @@
+{
+  "source": "synthetic:losing_streak",
+  "scenario": "losing_streak",
+  "benchmark_symbol": "NIFTY50",
+  "seed": 7,
+  "sessions": 760,
+  "description": "Deterministic synthetic data for research/testing only"
+}

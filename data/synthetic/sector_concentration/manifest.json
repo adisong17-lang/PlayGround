@@ -1,0 +1,8 @@
+{
+  "source": "synthetic:sector_concentration",
+  "scenario": "sector_concentration",
+  "benchmark_symbol": "NIFTY50",
+  "seed": 7,
+  "sessions": 760,
+  "description": "Deterministic synthetic data for research/testing only"
+}

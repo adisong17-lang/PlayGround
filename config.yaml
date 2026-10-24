@@ -1,0 +1,101 @@
+# Liquid Volatility-Adjusted Momentum Swing System
+# All percentage values are expressed as decimal fractions.
+
+data:
+  provider: csv                 # csv | parquet | sqlite | yfinance | synthetic
+  path: data/synthetic/clean_uptrend
+  benchmark_symbol: NIFTY50
+  start: null                   # YYYY-MM-DD or null
+  end: null
+  yfinance_symbols: null        # optional list; used only by the yfinance provider
+  auto_adjust: true
+  parquet_engine: null
+  sqlite_table: ohlcv
+
+universe:
+  membership_file: data/synthetic/clean_uptrend/universe_history.csv
+  sector_file: data/synthetic/clean_uptrend/sectors.csv
+  min_price: 20.0               # exclude penny stocks
+  min_avg_volume: 100000        # shares/day over liquidity_lookback
+  min_avg_turnover: 10000000    # currency/day over liquidity_lookback
+  min_history: 260              # sessions available before a stock is tradable
+  liquidity_lookback: 20
+  limit_move_threshold: 0.095   # moved >=9.5% counts as a circuit-prone day
+  max_limit_move_fraction: 0.10 # reject if >10% of lookback were such days
+  top_momentum_pct: 0.20
+  top_sector_pct: 0.30
+  max_positions: 5
+  max_positions_per_sector: 2
+
+regime:
+  fast_sma: 50
+  slow_sma: 200
+
+momentum:
+  short_window: 126
+  long_window: 252
+  vol_window_short: 126
+  vol_window_long: 252
+  rank_weight_6m: 0.5
+  rank_weight_12m: 0.5
+  require_positive_momentum: true
+
+sector:
+  rs_window: 63
+  sma_window: 50
+  min_members: 2
+
+strategy:
+  ema_fast: 20
+  ema_mid: 50
+  sma_slow: 200
+  atr_window: 14
+  slope_lookback: 1
+  pullback_atr_mult: 1.0
+  pullback_lookback: 5
+  breakout_lookback: 10
+  volume_window: 20
+  volume_mult: 1.3
+  close_range_min: 0.60         # close must be in the upper 40% of the candle
+  rs_window: 63
+  swing_low_window: 10
+  atr_stop_mult: 2.0
+  max_stop_distance_pct: 0.08
+  max_gap_up_pct: 0.03
+  trailing_atr_mult: 2.5
+  exit_low_window: 10
+  exit_ema_days: 2
+  max_holding_sessions: 30
+
+risk:
+  risk_per_trade_pct: 0.005     # 0.5% of current equity
+  max_positions: 5
+  max_position_pct: 0.20        # 20% of equity per position
+  max_portfolio_risk_pct: 0.03  # 3% open risk in aggregate
+  min_quantity: 1
+
+backtest:
+  initial_capital: 1000000
+  close_positions_at_end: true
+  risk_free_rate: 0.0
+  periods_per_year: 252
+
+costs:
+  brokerage_bps: 3.0            # 0.03% per side
+  brokerage_flat: 0.0           # currency per order
+  stt_buy_bps: 0.0
+  stt_sell_bps: 10.0            # 0.10% delivery STT on sell
+  exchange_bps: 0.297
+  sebi_bps: 0.01
+  gst_pct: 0.18                 # on brokerage + exchange + SEBI
+  stamp_duty_buy_bps: 1.5
+  slippage_bps: 5.0             # each side, applied to fill price
+  spread_bps: 2.0               # quoted spread; half applied to each fill
+
+scanner:
+  top_n: 5
+
+report:
+  output_dir: results
+  title: Liquid Volatility-Adjusted Momentum Swing System
+  benchmark_symbol: NIFTY50
